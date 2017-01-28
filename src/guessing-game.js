@@ -24,6 +24,10 @@ class GuessingGame {
     greater() {
     	this.min = this.result;
     }
+
+    set value() {
+    	return 43;
+    }
 }
 
 module.exports = GuessingGame;
